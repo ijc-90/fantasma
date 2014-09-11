@@ -8,8 +8,8 @@ public class Ghost extends Character{
         this.logic.eaten(this);
     }
 
-    public String logic(){
-        return
+    public String state(){
+        return this.logic.type;
     }
 
 }

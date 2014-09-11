@@ -3,5 +3,5 @@
  */
 public interface Movable {
 
-    public abstract move();
+    public abstract void move();
 }
